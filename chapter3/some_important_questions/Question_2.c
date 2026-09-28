@@ -17,13 +17,16 @@ void main()
         printf("Income of an employee is %d\n",income);
         printf("tax paid by an employee is %d", (income*5)/100);
     }
-    if(income>500000 && income<1000000){
+    else if(income>500000 && income<1000000){
         printf("Income of an employee is %d\n",income);
         printf("tax paid by an employee is %d", (income*20)/100);
     }
-    if(income>1000000){
+    else if(income>1000000){
         printf("Income of an employee is %d\n",income);
         printf("tax paid by an employee is %d", (income*30)/100);
+    }
+    else{
+        printf("Note that there is no tax below 2.5L");
     }
     
 }
