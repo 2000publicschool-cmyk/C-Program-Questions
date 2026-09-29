@@ -9,7 +9,7 @@ void main()
     printf("Student has pass by first division");
     else if(num>=50 && num<60)
     printf("Student has pass by second division");
-    if(num>50 && num<33)
+    else if(num>33 && num<50)
     printf("Student has pass by third division");
     else 
     printf("Student has fail");
