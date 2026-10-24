@@ -13,11 +13,11 @@ void main()
     int income;
     printf("Enter the income amount:");
     scanf("%d",&income);
-    if(income>250000 && income<500000){
+    if(income>250000 && income<=500000){
         printf("Income of an employee is %d\n",income);
         printf("tax paid by an employee is %d", (income*5)/100);
     }
-    else if(income>500000 && income<1000000){
+    else if(income>500000 && income<=1000000){
         printf("Income of an employee is %d\n",income);
         printf("tax paid by an employee is %d", (income*20)/100);
     }
