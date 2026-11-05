@@ -7,7 +7,7 @@
 void main()
 {
     int num, sum = 0;
-    clrscr(); // Clears the previous output screen
+    // clrscr(); // Clears the previous output screen
     
     printf("Enter the number: ");
     scanf("%d", &num);
